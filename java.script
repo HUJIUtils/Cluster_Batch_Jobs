@@ -1,0 +1,7 @@
+#!/bin/sh
+# java.script
+#SBATCH -c1
+#SBATCH --mem=20g
+#SBATCH --time=3-0
+
+java -Xmx20g -jar <full_path_to_jar_file> ${PARAM_1} ${PARAM_2}

@@ -1,0 +1,7 @@
+#!/bin/sh
+# matlab.script
+#SBATCH -c1
+#SBATCH --mem=20g
+#SBATCH --time=3-0
+
+matlab -nodisplay -r "cd('<complete_path_to_matlab_script'>);<function_name>(${PARAM_1},${PARAM_2});exit();"

@@ -11,4 +11,5 @@ to run the script:
 
 or the new version (preffered):
 
-    sh new_runner.sbatch <script_name> <job_name_prefix> <log_dir> <#cores> <parma1> <param2> <param3>
+    sh new_runner.sbatch <script_name> <job_name_prefix>
+        <log_dir> <#cores> <memory> <time> <path_to_file> <param1> <param2>

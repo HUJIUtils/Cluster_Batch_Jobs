@@ -1,0 +1,6 @@
+#!/bin/sh
+# matlab.script
+#SBATCH --mem=${MEM}
+#SBATCH --time=${TIME}
+
+matlab -nodisplay -r "cd('${PATH_TO_FILE}');<function_name>(${PARAM_1},${PARAM_2});exit();"

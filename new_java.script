@@ -1,0 +1,6 @@
+#!/bin/sh
+# java.script
+#SBATCH --mem=${MEM}
+#SBATCH --time=${TIME}
+
+java -Xmx${MEM} -jar ${PATH_TO_FILE} ${PARAM_1} ${PARAM_2}

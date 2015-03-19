@@ -1,4 +1,4 @@
-# Cluster_Batch_Jobs
+# cluster_batch_jobs
 A script enabling you to run multiple jobs on the HUJI slurm clusters.
 
 Currently it is configured to run 2 parameters, you can modify them inside the
@@ -7,3 +7,7 @@ Currently it is configured to run 2 parameters, you can modify them inside the
 to run the script:
 
     sh runner.sbatch <script_name> <job_name_prefix> <log_dir>
+
+
+or the new version (preffered):
+  sh new_runner.sbatch <script_name> <job_name_prefix> <log_dir> <#cores> <parma1> <param2> <param3>

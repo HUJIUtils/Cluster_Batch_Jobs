@@ -14,7 +14,7 @@ export log_dir cur_dir work_dir num_cores
 function run {
   MY_PARAM1=$1;
   MY_PARAM1=$2;
-
+  My_PARAM3=$3;
   # export the parameters so they will be available on the running script
   # the names exported should be the names used inside the *.script parameters
   export MY_PARAM1 MY_PARAM2
@@ -28,4 +28,4 @@ function run {
 }
 
 # assuming you have two additional parameters
-run $5 $6;
+run $5 $6 $7;
